@@ -1,11 +1,9 @@
-# threejs-gltf-import
+# Cyber Void: Rise of the Galactic Vanguard
 
-Demo app for importing a .gltf model using Three.js
+Cyber Void is an immersive web experience that transports users to a futuristic world filled with cybernetic wonders and cosmic adventures. Explore the neon-lit corridors of a bustling space station, encounter elite space marines guarding the void, and marvel at the breathtaking views of the sprawling cyberpunk cityscape. With stunning 3D objects and environments, this captivating demo project offers an unforgettable journey through the stars in the pulsating realm of cyberpunk fiction.
 
 ## Demo
 
-https://dgreenheck.github.io/threejs-gltf-import/
+[https://nganduntita1.github.io/spacestation/]
 
-## Tutorial
 
-Check out the [step-by-step tutorial](https://youtu.be/aOQuuotM-Ww) on my YouTube channel!
