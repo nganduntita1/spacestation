@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spacestation 7 - Procedural
+* source:	https://sketchfab.com/3d-models/spacestation-7-procedural-5e8cb801870f4cbc89246ba4f9c8e6b2
+* author:	re1monsen (https://sketchfab.com/re1monsen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spacestation 7 - Procedural" (https://sketchfab.com/3d-models/spacestation-7-procedural-5e8cb801870f4cbc89246ba4f9c8e6b2) by re1monsen (https://sketchfab.com/re1monsen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
