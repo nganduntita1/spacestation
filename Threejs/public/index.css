@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Code';
+  src: local('Code Light'), url(fonts/code_light.otf) format('otf');
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+#heading {
+  position: fixed;
+  width: 100%;
+  padding: 64px;
+}
+
+.border {
+  background: linear-gradient(90deg, gray, 90%, black);
+  height: 2px;
+  width: 1100px;
+  margin-top: 4px;
+}
+
+.title {
+  color: rgb(215, 215, 215);
+  font-size: 4.4em;
+  font-family: 'Code';
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+/* #progress-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress {
+  font-family: 'Code';
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+} */
+
+.progress-bar-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress-bar{
+  width: 30%;
+  margin-top: 0.5%;
+  height: 2%;
+  background-color: transparent;
+}
+
+
+
+#progress-bar::-webkit-progress-value {
+  background-color: rgba(255, 255, 255, 0.792);
+}
+
+label {
+  color: rgb(222, 226, 229);
+  font-size: 2rem;
+}
+@keyframes load {
+  0%{
+      opacity: 0.08;
+/*         font-size: 10px; */
+/* 				font-weight: 400; */
+      filter: blur(1px);
+      letter-spacing: 3px;
+      }
+  100%{
+/*         opacity: 1; */
+/*         font-size: 12px; */
+/* 				font-weight:600; */
+/* 				filter: blur(0); */
+      }
+}
+
+.animate {
+color: white;
+font-family: Helvetica, sans-serif, Arial;
+animation: load 1.2s infinite 0s ease-in-out;
+animation-direction: alternate;
+text-shadow: 0 0 1px white;
+}
